@@ -3,6 +3,12 @@
     <% include ../partials/head %>
   </head>
   <body>
-    <p>message</p>
+
+    <% if (message.length > 0) { %>
+      <p><%= message %></p>
+    <% } else { %>
+      <p>I didn't get the message!</p>
+    <% } %>
+    
   </body>
 </html>
