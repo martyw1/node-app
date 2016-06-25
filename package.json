@@ -1,0 +1,14 @@
+{
+  "name": "node-app",
+  "main": "server.js",
+  "scripts": {
+		"start": "node server.js",
+	},
+  "dependencies" : {
+    "express" : "latest",
+    "ejs": "latest"
+  },
+  "engines": {
+    "node": "4.x"
+  }
+}
